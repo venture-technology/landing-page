@@ -1,0 +1,12 @@
+networks:
+  bubble:
+    driver: bridge
+
+services:
+  web:
+    build: .
+    ports:
+      - "3000:80"
+    networks:
+      - bubble
+    restart: unless-stopped
