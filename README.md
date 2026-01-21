@@ -1,6 +1,6 @@
 # Venture
 
-Venture é um aplicativo que conecta responsáveis, escolas e motoristas de transporte escolar, simplificando toda a gestão do trajeto diário dos alunos. 
+Venture é um aplicativo que conecta responsáveis, escolas e motoristas de transporte escolar, simplificando toda a gestão do trajeto diário dos alunos.
 
 Para os responsáveis
 
