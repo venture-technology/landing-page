@@ -5,7 +5,7 @@ import Heading from '../base/Heading'
 const HeroSection = () => {
   return (
     <section className="relative bg-white overflow-hidden">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-20 md:py-28 lg:py-36">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl pt-8 pb-16 md:pt-10 md:pb-20 lg:pt-12 lg:pb-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <motion.div
@@ -19,7 +19,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 bg-brand-50 border-2 border-brand-200 text-brand-700 px-4 py-2 rounded-full font-semibold mb-6"
+              className="inline-flex items-center gap-2 bg-brand-50 border-2 border-brand-200 text-brand-700 px-5 py-2.5 rounded-full font-semibold text-base mb-6 shadow-sm"
             >
               <span className="relative flex h-3 w-3">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
